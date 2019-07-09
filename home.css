@@ -10,28 +10,14 @@ img{
 	border-radius: 45%;
 }
 
-p.ora{
-	margin-top: -0.6%;
-}
-
-.contenuto{
-	margin-top: 5%;
-}
-
-.post{
-	width: 530px;
-	float:right;
-	margin-top: 2%;
-	margin-right: 27.6%;
-	background-color: #28292A;
-	padding: 1%;
-	border-radius: 5px;
-}
+/*
+	Menu utente (Sinistra)
+*/
 
 .tendina{
 	float:left;
-	margin-top: 3%;
-	margin-left: 15.5%;
+	margin-top: -2.2%;
+	margin-left: 20.5%;
 	position: absolute;
 	width: 50%;
 	height: 25%;
@@ -39,20 +25,49 @@ p.ora{
 
 .sinistra{
 	float: left;
+	position: fixed;
 }
 
 .sinistra a {
 	display: block;
 	text-decoration: none;
-	margin-top: 1%;
-	font-size: 20px;
+	font-size: 25px;
 	font-weight: bold;
-	margin-top: 5%;
+	margin-top: 15%;
 	color: #b2b2b2;
+
 }
 
 .sinistra a:hover{
 	color: grey;
+}
+
+/*
+	CSS Post.
+*/
+p.ora{
+	margin-top: -3%;
+}
+
+p.nick{
+	color: grey;
+	margin-left: 25%;
+	margin-top: -3.7%;
+}
+
+.contenuto{
+	margin-top: 5%;
+	margin-left: 35%;
+
+}
+
+.post{
+	width: 530px;
+	float:center;
+	background-color: #28292A;
+	padding: 1%;
+	margin-top: 2%;
+	position: relative;
 }
 
 .utente{
@@ -63,13 +78,14 @@ p.ora{
 	display: inline;
 	text-decoration: none;
 	color: #b2b2b2;
+	position: relative;
 }
 
 .utente a:hover{
 	color:grey;
 }
 
-.info2{
+.nome_data{
 	margin-left: 6.7%;
 	margin-top: -6.6%;
 }
