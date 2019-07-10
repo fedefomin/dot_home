@@ -16,7 +16,7 @@ img.foto_utente{
 
 .tendina{
 	float:left;
-	margin-top: -10.2%;
+	margin-top: 3.2%;
 	margin-left: 20.5%;
 	position: absolute;
 	width: 50%;
@@ -33,7 +33,7 @@ img.foto_utente{
 	text-decoration: none;
 	font-size: 25px;
 	font-weight: bold;
-	margin-top: 15%;
+	margin-top: 10%;
 	color: #b2b2b2;
 
 }
@@ -58,6 +58,10 @@ img.foto_utente{
 	padding: 1%;
 	margin-top: 1%;
 	border-radius: 1%;
+}
+
+.descrizione{
+	margin-top: 6.2%;
 }
 
 .post:hover{
@@ -91,22 +95,18 @@ input[type=post_write], select {
   color:#b2b2b2;
   background-color: #2F3031;
 }
+/*
  input[type="post_write"]:hover{
  	background-color: white;
  }
+ */
 
 /*
 	Informazioni del post (Nome utente, data)
 */
-
-p.ora{
-	margin-top: -3%;
-}
-
-p.nick{
+p.nick_ora{
 	color: grey;
-	margin-left: 25%;
-	margin-top: -3.7%;
+	display: inline;
 }
 
 .utente{
@@ -125,6 +125,6 @@ p.nick{
 }
 
 .nome_data{
-	margin-left: 6.7%;
-	margin-top: -6.6%;
+	margin-left: 8.7%;
+	margin-top: -7.6%;
 }
