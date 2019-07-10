@@ -6,7 +6,7 @@ body {
 	color: #b2b2b2;
 }
 
-img{
+img.foto_utente{
 	border-radius: 45%;
 }
 
@@ -16,7 +16,7 @@ img{
 
 .tendina{
 	float:left;
-	margin-top: -2.2%;
+	margin-top: -10.2%;
 	margin-left: 20.5%;
 	position: absolute;
 	width: 50%;
@@ -45,6 +45,60 @@ img{
 /*
 	CSS Post.
 */
+.contenuto{
+	margin-top: 10%;
+	margin-left: 35%;
+	position: relative;
+}
+
+.post{
+	width: 530px;
+	float:center;
+	background-color: #28292A;
+	padding: 1%;
+	margin-top: 1%;
+	border-radius: 1%;
+}
+
+.post:hover{
+	background-color: #2F3031;
+}
+
+/*
+	Scrivi post CSS
+*/
+p.titolo_post{
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.scrivi_post{
+	float:right;
+	margin-right:53.5%;
+	margin-top: -44.3%;
+	position: relative;
+}
+
+input[type=post_write], select {
+  width: 250%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  margin-top:-5%;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color:#b2b2b2;
+  background-color: #2F3031;
+}
+ input[type="post_write"]:hover{
+ 	background-color: white;
+ }
+
+/*
+	Informazioni del post (Nome utente, data)
+*/
+
 p.ora{
 	margin-top: -3%;
 }
@@ -53,21 +107,6 @@ p.nick{
 	color: grey;
 	margin-left: 25%;
 	margin-top: -3.7%;
-}
-
-.contenuto{
-	margin-top: 5%;
-	margin-left: 35%;
-
-}
-
-.post{
-	width: 530px;
-	float:center;
-	background-color: #28292A;
-	padding: 1%;
-	margin-top: 2%;
-	position: relative;
 }
 
 .utente{
